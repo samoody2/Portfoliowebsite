@@ -1,0 +1,1 @@
+document.getElementbyId('intro').children[0].classname += " load";

@@ -1,3 +1,258 @@
-nav {
+*{
+    padding:0;
+    margin:0;
+    scroll-behavior:smooth;
+}
+
+nav{
+    animation:nav-load 1s ease-in 500ms;
+    animation-fill-mode: forwards;
+    transform: translateY(-20px);
+    opacity:0;
+
+}
+
+nav a {
+    transition: 0.3s ease;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    border-top: 4px solid transparent; 
+    border-bottom: 4px solid transparent;
+    padding: 20px 0;
+    margin: 0 5px;
   
 }
+
+  nav a:hover {
+    border-top: 4px solid gold;
+    border-bottom: 4px solid gold;
+    padding: 6px 0;
+  }
+
+
+
+body{
+   background:black;
+}
+
+#home{
+    padding:20px;
+    margin:10px;
+    
+}
+
+#intro{
+    animation:first-load 0.5s ease-in 0.3s;
+    animation-fill-mode: forwards;
+    transform: translateY(-20px);
+    opacity:0;
+}
+
+#web{
+    animation: second-load 0.5s ease-in 0.3s; 
+    animation-fill-mode: forwards;
+    transform: translateX(-20px);
+    opacity:0;
+}
+
+#student{
+    animation: third-load 0.5s ease-in 0.3s; 
+    animation-fill-mode: forwards;
+    transform: translateX(-20px);
+    opacity:0;
+}
+
+#learning{
+    animation: fourth-load 0.5s ease-in 0.3s; 
+    animation-fill-mode: forwards;
+    transform: translateX(-20px);
+    opacity:0;
+}
+
+#link{
+    animation: link-load 0.5s ease-in 0.3s;
+    animation-fill-mode:forwards;
+    transform: translateX(-20px);
+    opacity:0;
+}
+
+img{
+    margin:20px;
+    animation: image-load 1s ease-in 0.5s;
+    animation-fill-mode: forwards;
+    transform:translateX(-20px);
+    opacity:0;
+}
+
+#about{
+    padding:20px;
+    margin:10px;
+}
+
+#inspiration{
+    animation: inspiration-load 1s ease-in 0.5s;
+    animation-fill-mode: forwards;
+    transform:translateZ(20px);
+    opacity:0;
+}
+
+#name{
+    animation: name-load 2s ease-in 1s;
+    animation-fill-mode: forwards;
+    transform:translateZ(20px);
+    opacity:0;
+    font-family: cursive;
+    font-family: 600;
+}
+
+#born{
+    animation: born-load 1s ease-in 0.5s;
+    animation-fill-mode:forwards;
+    transform: translateX(-20px);
+    opacity:0;
+    font-family: cursive;
+    font-weight:600;
+}
+
+#team{
+    animation: team-load 2s ease-in 1s;
+    animation-fill-mode: forwards;
+    transform:translateZ(20px);
+    opacity:0;
+    font-family: cursive;
+    font-weight:600;
+}
+
+#contact{
+    padding:20px;
+    margin:10px;
+}
+
+@keyframes first-load {
+    0%{
+transform: translateY(-20px);
+opacity:0;
+    }
+
+    100%{
+tranform: translateY(0px);
+opacity: 1;
+    }
+}
+
+@keyframes second-load {
+    0%{
+        transform: translateY(-20px);
+        opacity:0;
+    }
+    
+    100%{
+        transform: translateY(0px);
+        opacity:1; 
+    }
+}
+
+@keyframes third-load{
+0%{
+    transform:translateY(-20px);
+    opacity:0;
+}
+
+100%{
+    transform:translateY(0px);
+    opacity:1;
+}
+}
+
+@keyframes fourth-load{
+    0%{
+        transform:translateY(-20px);
+        opacity:0;
+    }
+    100%{
+        transform:translateY(0px);
+        opacity:1;
+    }
+}
+
+@keyframes image-load {
+    0%{
+        transform:translateX(-20px);
+        opacity:0;
+    }
+    100%{
+        transform:translateY(0px);
+        opacity:1;
+    }
+}
+
+@keyframes link-load{
+    0%{
+        transform:translateX(-20px);
+        opacity:0;
+    }
+    100%{
+        transform:translateY(0px);
+        opacity:1;
+    }
+}
+
+@keyframes nav-load {
+    0%{
+        transform:translateX(-20px);
+        opacity:0;
+    }
+    100%{
+        transform:translateY(0px);
+        Opacity:1;
+    }   
+}
+
+@keyframes inspiration-load{
+    0%{
+        transform:translateZ(-20px);
+        opacity:0;
+    }
+    100%{
+        transform:translateZ(0px);
+        opacity:1;
+    }
+    
+}
+
+@keyframes name-load{
+    0%{
+        transform:translateZ(-20px);
+        opacity:0;
+    }
+    100%{
+        transform:translateZ(0px);
+        opacity:1;
+    }
+    
+}
+
+@keyframes born-load {
+    0%{
+        transform:translateY(-20px);
+        opacity:0;
+    }
+    100%{
+        transform:translateY(0px);
+        opacity:1;
+    }
+}
+
+@keyframes team-load {
+     0%{
+        transform:translateZ(-20px);
+        opacity:0;
+    }
+    100%{
+        transform:translateZ(0px);
+        opacity:1;
+    }
+}
+
+/* Contact section */
