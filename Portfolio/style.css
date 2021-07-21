@@ -63,13 +63,6 @@ body{
     opacity:0;
 }
 
-#learning{
-    animation: fourth-load 0.5s ease-in 0.3s; 
-    animation-fill-mode: forwards;
-    transform: translateX(-20px);
-    opacity:0;
-}
-
 #link{
     animation: link-load 0.5s ease-in 0.3s;
     animation-fill-mode:forwards;
@@ -91,14 +84,14 @@ img{
 }
 
 #inspiration{
-    animation: inspiration-load 1s ease-in 0.5s;
+    animation: inspiration-load 0.45s ease-in 0.45s;
     animation-fill-mode: forwards;
     transform:translateZ(20px);
     opacity:0;
 }
 
 #name{
-    animation: name-load 2s ease-in 1s;
+    animation: name-load 0.5s ease-in 0.5s;
     animation-fill-mode: forwards;
     transform:translateZ(20px);
     opacity:0;
@@ -107,7 +100,7 @@ img{
 }
 
 #born{
-    animation: born-load 1s ease-in 0.5s;
+    animation: born-load 0.45s ease-in 0.45s;
     animation-fill-mode:forwards;
     transform: translateX(-20px);
     opacity:0;
@@ -116,7 +109,7 @@ img{
 }
 
 #team{
-    animation: team-load 2s ease-in 1s;
+    animation: team-load 0.5s ease-in 0.5s;
     animation-fill-mode: forwards;
     transform:translateZ(20px);
     opacity:0;
