@@ -249,3 +249,62 @@ opacity: 1;
 }
 
 /* Contact section */
+#connect{
+    font-weight:600;
+}
+
+#form{
+    font-weight:300;
+}
+
+#name-enter{
+font-family:cursive;
+}
+
+#name-bar{
+    width:285px;
+}
+
+#name-bar::placeholder{
+color:gold
+}
+
+#email{
+    font-family: cursive;
+}
+
+#email-bar{
+    width:285px;
+}
+
+#email-bar::placeholder{
+    color:gold;
+}
+
+
+#content{
+    font-family: cursive;
+}
+
+.writing{
+    width:400px;
+    height:100px;
+    resize: none;
+    
+}
+
+.writing::placeholder{
+    position:absolute;
+    color:gold;
+    text-indent:
+}
+
+
+.click{
+    color:darkkhaki;
+}
+
+.click:hover{
+    color:darksalmon;
+    transition:0.35s;
+}
